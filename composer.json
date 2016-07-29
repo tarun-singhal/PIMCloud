@@ -1,5 +1,5 @@
 {
-    "name": "osscube/pim-cloud",
+    "name": "osscube/pimcloud",
     "type": "pimcore-plugin",
     "license": "BSD-3-Clause",
     "description": "pimcore cloud plugin",
@@ -14,11 +14,11 @@
         }
     ],
     "require": {
- 	"pimcore/installer-plugin": ">=1"
+        "pimcore/installer-plugin": ">=1"
     },
     "autoload": {
         "psr-4": {
-            "PIMCloud\\": "lib"
+            "Pimcloud\\": "lib"
         }
     }
-}
+} 

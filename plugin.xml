@@ -3,7 +3,7 @@
 		<plugin>
 
             <!-- the plugin name [A-Za-z_] -->
-            <pluginName>PIMCloud</pluginName>
+            <pluginName>Pimcloud</pluginName>
 
             <!-- a short description -->
 			<pluginDescription><![CDATA[]]></pluginDescription>
@@ -13,30 +13,30 @@
             <pluginRevision>1</pluginRevision>
             <pluginBuildTimestamp>0</pluginBuildTimestamp>
 
-            <!-- put in the URL for the plugin configuration eg. /plugin/PIMCloud/admin/index -->
+            <!-- put in the URL for the plugin configuration eg. /plugin/Pimcloud/admin/index -->
             <pluginIframeSrc></pluginIframeSrc>
 
             <!-- className of the plugin which extends Pimcore_API_Plugin_Abstract-->
-			<pluginClassName>\PIMCloud\Plugin</pluginClassName>
+			<pluginClassName>\Pimcloud\Plugin</pluginClassName>
 
             <!-- include paths relative to plugin-directory -->
 			<pluginIncludePaths>
-				<path>/PIMCloud/lib</path>
+				<path>/Pimcloud/lib</path>
 			</pluginIncludePaths>
 
 			<!-- namespaces to register with autoloader-->
 			<pluginNamespaces>
-				<namespace>PIMCloud</namespace>
+				<namespace>Pimcloud</namespace>
 			</pluginNamespaces>
 
 			<!-- js files with path relative to plugin-directory -->
 			<pluginJsPaths>
-                <path>/plugins/PIMCloud/static/js/startup.js</path>
+                <path>/plugins/Pimcloud/static/js/startup.js</path>
 			</pluginJsPaths>
 
 			<!-- css files with path relative to plugin-directory -->
 			<pluginCssPaths>
-                <path>/plugins/PIMCloud/static/css/example.css</path>
+                <path>/plugins/Pimcloud/static/css/example.css</path>
 			</pluginCssPaths>
 		</plugin>
 </zend-config>

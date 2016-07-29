@@ -1,2 +1,2 @@
 
-PIMCloud Plugin works!
+Pimcloud Plugin works!

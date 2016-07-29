@@ -10,7 +10,7 @@ pimcore.plugin.pimcloud = Class.create(pimcore.plugin.admin, {
     },
  
     pimcoreReady: function (params,broker){
-        // alert("PIMCloud Plugin Ready!");
+        // alert("Pimcloud Plugin Ready!");
     }
 });
 
