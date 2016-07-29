@@ -20,5 +20,8 @@
         "psr-4": {
             "PIMCloud\\": "lib"
         }
+    },
+    "extra": {
+        "class": "Pimcore\\Composer\\PluginInstaller"
     }
 }
