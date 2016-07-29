@@ -1,6 +1,18 @@
 {
-    "name": "YourVendorName/pim-cloud",
+    "name": "osscube/pim-cloud",
     "type": "pimcore-plugin",
+    "license": "BSD-3-Clause",
+    "description": "pimcore cloud plugin",
+    "keywords": ["pimcore","plugin","cloud"],
+    "homepage": "http://tarunlinux.blogspot.in",
+    "authors": [
+        {
+            "name": "Tarun Singhal",
+            "email": "tarun.singhal@osscube.com",
+            "homepage": "",
+            "role": "Developer"
+        }
+    ],
     "require": {
         "pimcore/installer-plugin": ">=1"
     },
